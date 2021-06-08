@@ -5,7 +5,8 @@
         <div class="row justify-content-center">
 
             <div class="col-md-5 col-lg-3">
-                <img src="assets/img/profile.jpg" alt="About" data-aos="zoom-in" data-aos-delay="100">
+{{--                <img src="assets/img/profile.jpg" alt="About" data-aos="zoom-in" data-aos-delay="100">--}}
+                <img src="assets/img/me.jpg" alt="About" data-aos="zoom-in" data-aos-delay="100">
             </div>
 
             <div class="col-md-7 col-lg-5">
