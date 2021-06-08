@@ -67,7 +67,7 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => $DATABASE_URL,
+//            'url' => $DATABASE_URL,
 //            'host' => env('DB_HOST', '127.0.0.1'),
 //            'port' => env('DB_PORT', '5432'),
 //            'database' => env('DB_DATABASE', 'forge'),
@@ -80,11 +80,11 @@ return [
 //            'sslmode' => 'prefer',
 
 //        HEROKU
-            'host' => $DATABASE_URL["host"],
-            'port' => $DATABASE_URL["port"],
-            'database' => ltrim($DATABASE_URL["path"], "/"),
-            'username' => $DATABASE_URL["user"],
-            'password' => $DATABASE_URL["pass"],
+            'host' => 'ec2-18-215-111-67.compute-1.amazonaws.com',
+            'port' => 5432,
+            'database' => 'dboli1utjjva63',
+            'username' => 'heqmbiwvmyzqlh',
+            'password' => 'fe1c6175467e6b9fa8d682c3289edb0d2073c8f5392754f7bf673b9eeaae3b0d',
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
